@@ -1,8 +1,8 @@
 class SpaceshipPrompt < Formula
   desc "Zsh prompt for Astronauts"
   homepage  "https://github.com/denysdovhan/spaceship-prompt"
-  url "https://github.com/denysdovhan/spaceship-prompt/archive/v3.0.2.tar.gz"
-  sha256 "da1cd2306f5e71bb02266be6e21505ddd420e2c3297a3e99e86cb94d672c32b9"
+  url "https://github.com/denysdovhan/spaceship-prompt/archive/v3.2.0.tar.gz"
+  sha256 "451aa12fc84eb78399d5ebbcaf9ca227ec113f82f9ada46e5116aab03d8e4720"
   head "https://github.com/denysdovhan/spaceship-prompt.git"
 
   bottle :unneeded
