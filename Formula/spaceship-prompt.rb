@@ -8,8 +8,6 @@ class SpaceshipPrompt < Formula
   bottle :unneeded
 
   def install
-    # (prefix/"sections").install Dir["sections/*"]
-    # lib.install Dir["lib/*"]
     (zsh_function/"sections").install Dir["sections/*"]
     (zsh_function/"lib").install Dir["lib/*"]
     zsh_function.install "spaceship.zsh" => "prompt_spaceship_setup"
